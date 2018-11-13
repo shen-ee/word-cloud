@@ -1,6 +1,6 @@
 # word-cloud
-powered by THULAC(https://github.com/thunlp/THULAC-Python)
+Powered by THULAC(https://github.com/thunlp/THULAC-Python)
 
-generate word cloud in https://wordart.com/create
+Generate word cloud in WordArt(https://wordart.com/create)
 
 ## Tutorial
