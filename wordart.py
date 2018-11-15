@@ -17,6 +17,8 @@ driver.maximize_window()
 driver.get(r'https://wordart.com/create')
 wait = WebDriverWait(driver, 10)
 
+time.sleep(1) # Problem here
+
 wait.until(EC.presence_of_element_located((By.XPATH,"//*[@id='root']/div/div[2]/div[1]/div/div[3]")))
 fonts = driver.find_element_by_xpath("//*[@id='root']/div/div[2]/div[1]/div/div[3]")
 fonts.click()
